@@ -1,4 +1,7 @@
 {% extends "layout.html.twig" %}
-{% block body %}
+{% block title %}
+    {{ parent() }} - Liste de nos activités
+{% endblock %}
+{% block content %}
     <h1>Hello {{ name }} !</h1>
 {% endblock %}
